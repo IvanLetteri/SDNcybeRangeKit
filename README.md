@@ -4,9 +4,9 @@ A penetration testing and digital forensics environment
 
 **Warning: this [PRIVATE] project is for academic/research purposes only.**
 
-A blog post about this project can be read here: http://www.ivanletteri.it/SDNcrKit
+A blog post about this project can be read here:  http://www.ivanletteri.it/2019/02/10/sdncrkit/
 
-![SDNcyberRangeKit](https://www.ivanletteri.it/SDNcrKit/master/sdncrkit-logo-small.png "SDNcybeRangeKit")
+![SDNcyberRangeKit]( https://www.ivanletteri.it/2019/02/10/sdncrkit/master/sdncrkit-logo-small.png "SDNcybeRangeKit")
 
 ## Concept
 - Performs a SDN scenario attacks to all selected victims
@@ -30,11 +30,11 @@ os.system("~/.local/bin/flowdump -s 'dump.py http://10.0.2.20:5600/script.js' -T
 python3 sdn-cyberange-kit.py ipgateway
 ```
 
-![network](https://www.ivanletteri.it/SDNcrKit/master/SDNcybeRangeKit-network-attack.png "network")
+![network](https://www.ivanletteri.it/2019/02/10/sdncrkit/master/SDNcybeRangeKit-network-attack.png "network")
 
 
 A complete instructions for academic scenario can be found in https://github.com/IvanLetteri/SDNcybeRangeKit/blob/master/virtualbox_scenario_instructions.md
 
 
 
-![demo](https://www.ivanletteri.it/SDNcrKit/master/SDNcybeRangeKit-demo-cutted.gif "demo")
+![demo](https://www.ivanletteri.it/2019/02/10/sdncrkit/master/SDNcybeRangeKit-demo-cutted.gif "demo")
