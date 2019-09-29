@@ -3,8 +3,24 @@
 A penetration testing and digital forensics environment 
 
 **Warning: this [PRIVATE] project is for academic/research purposes only.**
+@inproceedings{DBLP:conf/itasec/LetteriRCC18,
+  author    = {Ivan Letteri and
+               Massimo Del Rosso and
+               Pasquale Caianiello and
+               Dajana Cassioli},
+  title     = {Performance of Botnet Detection by Neural Networks in Software-Defined
+               Networks},
+  booktitle = {Proceedings of the Second Italian Conference on Cyber Security, Milan,
+               Italy, February 6th - to - 9th, 2018.},
+  year      = {2018},
+  crossref  = {DBLP:conf/itasec/2018},
+  url       = {http://ceur-ws.org/Vol-2058/paper-03.pdf},
+  timestamp = {Tue, 28 May 2019 16:23:34 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/itasec/LetteriRCC18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 
-A blog post about this project can be read here:  http://www.ivanletteri.it/2019/02/10/sdncrkit/
+A blog post about this project can be read here:  https://www.ivanletteri.it/2019/09/29/performance-of-botnet-detection-by-neural-networks-in-software-defined-networks/
 
 ![SDNcyberRangeKit]( https://www.ivanletteri.it/2019/02/10/sdncrkit/master/sdncrkit-logo-small.png "SDNcybeRangeKit")
 
